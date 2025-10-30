@@ -1,0 +1,20 @@
+{
+  "name": "yield-pool-watcher",
+  "version": "0.1.0",
+  "description": "Track APY and TVL across DeFi pools and alert on changes - x402 compatible",
+  "type": "module",
+  "scripts": {
+    "test": "node test-vercel.js"
+  },
+  "keywords": ["x402", "defi", "yield", "monitoring", "apy", "tvl", "vercel"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "zod": "^3.23.8",
+    "ethers": "^6.13.4",
+    "axios": "^1.7.7"
+  }
+}
